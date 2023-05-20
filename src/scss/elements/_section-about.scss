@@ -1,0 +1,62 @@
+.picture {
+    flex: 1;
+    margin: 0 20px;
+    z-index: 0;
+
+    &.left:before {
+        content: ' ';
+        width: 374px;
+        height: 329px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background-color: #E5975F;
+    }
+
+    &.right:before {
+        content: ' ';
+        width: 374px;
+        height: 329px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-color: #BEB45A;
+    }
+}
+
+#about {
+    display: flex;
+    position: relative;
+    padding-inline: 100px;
+	padding-block: 100px;
+    background-color: #F6D2B8;
+
+    #about-me {
+        flex: 2;
+
+        h2 {
+            margin-top: 1em;
+            margin-bottom: 60px;
+            font-size: 30px;
+        }
+
+        p.subtitle {
+            font-family: 'Spectral';
+            font-weight: 800;
+            font-style: italic;
+            width: 60%;
+            font-size: 1rem;
+
+            strong {
+                font-style: italic;
+            }
+        }
+
+        p.content {
+            width: 80%;
+            font-size: 14px;
+        }
+    }
+}

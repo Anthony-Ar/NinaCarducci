@@ -1,0 +1,57 @@
+* { 
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+
+strong {
+    font-family: 'Spectral';
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+figure.quote {
+	width: 70%;
+	margin: auto;
+	padding-block: 3em;
+
+    blockquote {
+        font-family: 'Spectral';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 2.5rem;
+
+        strong {
+            font-style: italic;
+            font-weight: 300;
+        }
+    }
+
+    figcaption {
+        font-family: 'Spectral';
+        font-weight: 800;
+        font-size: 22px;
+    }
+}
+
+@import './elements/header';
+@import './elements/section-about';
+@import './elements/section-gallery';
+@import './elements/section-services';
+@import './elements/footer';
